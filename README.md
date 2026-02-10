@@ -17,7 +17,7 @@ This repository contains the MATLAB live script required to reproduce the main a
 
 | Script | Related Figure(s) / Equation(s) | Description |
 |--------|----------------------------------|-------------|
-| `BoostPPP_IEEE.mlx` | Eq. (13), Eqs. (1)–(3), Fig. 4, Fig. 8, Fig. 10 | Single-file evidence script. Builds the small-signal state-space model (Eq. 13), computes numerical transfer functions (e.g., \(G_{vd}(s)\)), derives symbolic poles and transmission zeros (Rosenbrock system matrix) and provides a symbolic cross-check via the Faddeev–Leverrier method. Computes operating points from Eqs. (1)–(3), performs pole/zero migration sweeps for Fig. 4, generates the k-factor and processed-power surfaces for Fig. 8, and plots the frequency response of \(G_{vd}(s)\) for Fig. 10. |
+| `BoostPPP_IEEE.mlx` | Eq. (13)-(14), Eqs. (1)–(3), Fig. 4, Fig. 8, Fig. 10 | File evidence script. Builds the small-signal state-space model (Eq. 13), computes numerical transfer functions (e.g., \(G_{vd}(s)\)), derives symbolic poles and transmission zeros (Rosenbrock system matrix) and provides a symbolic cross-check via the Faddeev–Leverrier method. Computes operating points from Eqs. (1)–(3), performs pole/zero migration sweeps for Fig. 4, generates the k-factor and processed-power surfaces for Fig. 8, and plots the frequency response of \(G_{vd}(s)\) for Fig. 10. |
 
 
 ---
